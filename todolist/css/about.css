@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    color: black;
+    transition: 0.3s;
+}
+
+nav{
+    position: fixed;
+    box-sizing: border-box;
+    top:0;
+    width: 100%;
+    background-color: rgb(24, 24, 230);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+    padding: 20px 30px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+#myAbout{
+    width: 600px;
+    margin: 120px auto 40px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+h2{
+    margin-top: 25px;
+}
+
+p{
+    line-height: 1.6;
+}
+
+li{
+    margin: 10px 0;
+}
+
+#myFooter{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+body.dark {
+    background-color: #222;
+    color: white;
+}
+
+body.dark #myAbout {
+    background-color: #333;
+}
+
+body.dark li {
+    color: white;
+}
+
+
+body.dark input::placeholder {
+    color: #ddd;
+}

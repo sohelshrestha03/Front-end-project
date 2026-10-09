@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    color: black;
+}
+
+nav{
+    position:fixed;
+    box-sizing: border-box;
+    top:0;
+    width: 100%;
+    background-color: rgb(24, 24, 230);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+    padding:20px 30px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+#container{
+    width: 400px;
+    margin:100px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+#input-box{
+    display: flex;
+    gap: 10px;
+}
+
+input{
+    flex: 1;
+    padding: 10px;
+}
+
+button{
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #eee;
+    color: black;
+    list-style: none;
+}
+
+#myList{
+ padding: 0;
+ margin: 20px auto;
+ width: 90%;
+}
+
+#myList li{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#filter{
+    margin-top: 10px;
+    text-align: center;
+}
+
+#filter button{
+    margin: 3px;
+}
+
+.completed{
+    text-decoration: line-through;
+    color:gray;
+}
+.task-buttons{
+ display: flex;
+ gap: 5px;
+}
+
+.task-buttons button{
+ width: 35px;
+ height: 35px;
+ padding: 5px;
+ cursor: pointer;
+ font-size: 18px;
+ border:none;
+ border-radius: 5px;
+}
+
+.task-buttons .completed-task{
+    background-color: green;
+    color: black;
+}
+
+.task-buttons .edit-btn{
+    background-color: yellow;
+    color: black;
+}
+
+.task-buttons .delete-btn{
+    background-color: red;
+    color: black;
+}
+
+.task-buttons .undo-btn{
+    background-color: rgb(7, 180, 237);
+    color: black;
+}
+
+#allBtn{
+    background-color: rgb(120, 200, 216);
+    border-radius: 5px;
+}
+
+#pendingBtn{
+    background-color:rgb(255, 172, 18);
+    border-radius: 5px;
+}
+
+#completedBtn{
+    background-color:greenyellow;
+    border-radius: 5px;
+}
+
+#btn{
+    background-color: rgba(4, 4, 4, 0.658);
+    color: #f2f2f2;
+    border-radius: 5px;
+}
+
+body.dark {
+    background-color: #222;
+    color: white;
+}
+
+body.dark #container {
+    background-color: #333;
+}
+
+body.dark li {
+    background-color: #444;
+    color: white;
+}
+
+body.dark input {
+    background-color: #555;
+    color: white;
+}
+
+body.dark input::placeholder {
+    color: #ddd;
+}

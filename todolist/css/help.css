@@ -1,0 +1,120 @@
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    color: black;
+    transition: 0.3s;
+}
+
+nav{
+    position: fixed;
+    box-sizing: border-box;
+    top:0;
+    width: 100%;
+    background-color: rgb(24, 24, 230);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+    padding: 20px 30px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+#myHelp{
+    box-sizing: border-box;
+    max-width: 750px;
+    width: calc(100%-30px);
+    margin: 110px auto 40px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+h1 { 
+    text-align: center; 
+    color: #1818e6; 
+}
+
+#myIntro{
+    text-align: center; 
+    line-height: 1.6; 
+    margin-bottom: 30px;
+}
+
+section{
+    padding:15px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+section h2,
+#myContact h2{
+    font-size: 19px;
+    margin-top: 0;
+}
+
+section p{
+    line-height: 1.6;
+    margin-bottom: 5px;
+}
+
+#myContact{
+    margin-top: 25px;
+    padding: 20px;
+    background-color: #f0f0ff;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#myContact a{
+    display: inline-block;
+    margin-top: 10px;
+    color: #1818e6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#myContact a:hover{
+    text-decoration: underline;
+}
+
+body.dark { 
+    background-color: #222; 
+    color: white; 
+} 
+body.dark #myHelp { 
+    background-color: #333; 
+} 
+body.dark section { 
+    border-bottom-color: #555; 
+    color: white;
+} body.dark #myContact { 
+    background-color: #444; 
+}
+body.dark #myContact a { 
+    color: #9da5ff; 
+} 
+@media (max-width: 600px) { 
+    nav { 
+        justify-content: center; 
+        gap: 15px; 
+        padding: 18px 10px; 
+        flex-wrap: wrap; 
+    } 
+    nav a { 
+        font-size: 14px; 
+    } 
+    #help-box { 
+        padding: 20px; 
+        margin-top: 100px; 
+    } 
+}

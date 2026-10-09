@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List-Setting</title>
+    <link rel="stylesheet" href="css/setting.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="todo.html">ToDo</a>
+        <a href="setting.html">Setting</a>
+        <a href="about.html">About</a>
+        <a href="help.html">Help?</a>
+        <a href="service.html">Services</a>
+    </nav>
+    <div id="box">
+        <h1>Settings</h1>
+        <div id="setting">
+            <div id="setting-text">
+                <h3>Dark Mode</h3>
+                <p>Change between light and dark mode.</p>
+            </div>
+            <button id="themedBtn">Dark Mode</button>
+        </div>
+
+         <div id="setting">
+            <div id="setting-text">
+                <h3>Complete Button</h3>
+                <p>Color used when completing a task.</p>
+            </div>
+            <input type="color" id="completeColor" value="#008000">
+        </div>
+
+         <div id="setting">
+            <div id="setting-text">
+                <h3>Undo Button</h3>
+                <p>Color used when undoing a task.</p>
+            </div>
+            <input type="color" id="undoColor" value="#ADD8E6">
+        </div>
+
+         <div id="setting">
+            <div id="setting-text">
+                <h3>Edit Button</h3>
+                <p>Color used for editing a task.</p>
+            </div>
+            <input type="color" id="editColor" value="#FFFF00">
+        </div>
+
+         <div id="setting">
+            <div id="setting-text">
+                <h3>Delete Button</h3>
+                <p>Color used for deleting a task.</p>
+            </div>
+            <input type="color" id="deleteColor" value="#FF0000">
+        </div>
+
+         <div id="setting">
+            <div id="setting-text">
+                <h3>Clear All Tasks</h3>
+                <p>Delete all saved tasks.</p>
+            </div>
+            <button id="clearBtn">Clear All</button>
+        </div>
+    </div>
+   <script src="js/setting.js"></script>
+</body>
+</html>

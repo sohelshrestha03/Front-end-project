@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List - Tasks</title>
+    <link rel="stylesheet" href="css/todo.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="todo.html">ToDo</a>
+        <a href="setting.html">Setting</a>
+        <a href="about.html">About</a>
+        <a href="help.html">Help?</a>
+        <a href="service.html">Services</a>
+    </nav>
+    <div class="todo-container">
+        <h1>My To-Do Tasks</h1>
+        <p>Search and manage your daily tasks.</p>
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Search your tasks...">
+            <button id="searchBtn">Search</button>
+            <button id="clearSearchBtn">Clear</button>
+        </div>
+        <p id="resultMessage"></p>
+        <ul id="taskList"></ul>
+        <a href="index.html" class="back-btn">Add New Task</a>
+    </div>
+    <a href="help.html" class="help-button" title="Help">?</a>
+    <script src="js/todo.js"></script>
+</body>
+</html>
