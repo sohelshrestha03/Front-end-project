@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Search App</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Movie Explorer</h1>
+        <p>Search for your favorite movie.</p>
+    </header>
+
+    <main>
+        <form id="myForm">
+           <input type="text" id="myInput" placeholder="Enter movie name..." aria-label="Movie Name" required>
+           <button type="submit">Search</button>
+        </form>
+        <p id="myParagraph" role="status">Search for a movie to get started!</p>
+        <section id="movieDetails" style="display: none;"></section>
+        <section id="movieBox" aria-label="Movie Search Results"></section>
+    </main>
+</body>
+</html>
